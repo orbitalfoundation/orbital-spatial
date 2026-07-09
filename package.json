@@ -1,0 +1,33 @@
+{
+  "name": "@orbitalfoundation/spatial",
+  "version": "0.1.0",
+  "description": "Space as a concept: place entities by pose, detect proximity, query regions. A spatial-hash index usable standalone, plus a bus listener that indexes pose-bearing entity traffic and answers spatial queries.",
+  "type": "module",
+  "main": "src/index.js",
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --preserve-symlinks --test"
+  },
+  "keywords": [
+    "orbital",
+    "spatial",
+    "proximity",
+    "spatial-hash",
+    "ecs"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orbitalfoundation/orbital-spatial.git"
+  },
+  "dependencies": {
+    "@orbitalfoundation/bus": "file:../orbital-bus/packages/bus",
+    "@orbitalfoundation/utils": "file:../orbital-bus/packages/utils"
+  }
+}
