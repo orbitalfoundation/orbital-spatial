@@ -27,7 +27,10 @@
     "url": "git+https://github.com/orbitalfoundation/orbital-spatial.git"
   },
   "dependencies": {
-    "@orbitalfoundation/bus": "file:../orbital-bus/packages/bus",
-    "@orbitalfoundation/utils": "file:../orbital-bus/packages/utils"
+    "@orbitalfoundation/bus": "^2.0.1",
+    "@orbitalfoundation/utils": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
